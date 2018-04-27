@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		032DE0DC2093024B00ED1128 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE0DB2093024B00ED1128 /* AppDelegate.m */; };
+		032DE0DF2093024B00ED1128 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE0DE2093024B00ED1128 /* ViewController.m */; };
+		032DE0E22093024B00ED1128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DE0E02093024B00ED1128 /* Main.storyboard */; };
+		032DE0E42093024B00ED1128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032DE0E32093024B00ED1128 /* Assets.xcassets */; };
+		032DE0E72093024B00ED1128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DE0E52093024B00ED1128 /* LaunchScreen.storyboard */; };
+		032DE0EA2093024B00ED1128 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE0E92093024B00ED1128 /* main.m */; };
+		032DE0F42093024B00ED1128 /* ShiftAdminTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE0F32093024B00ED1128 /* ShiftAdminTests.m */; };
+		032DE0FF2093024B00ED1128 /* ShiftAdminUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DE0FE2093024B00ED1128 /* ShiftAdminUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		032DE0F02093024B00ED1128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032DE0CF2093024B00ED1128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DE0D62093024B00ED1128;
+			remoteInfo = ShiftAdmin;
+		};
+		032DE0FB2093024B00ED1128 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 032DE0CF2093024B00ED1128 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 032DE0D62093024B00ED1128;
+			remoteInfo = ShiftAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032DE0D72093024B00ED1128 /* ShiftAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShiftAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DE0DA2093024B00ED1128 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		032DE0DB2093024B00ED1128 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		032DE0DD2093024B00ED1128 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		032DE0DE2093024B00ED1128 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		032DE0E12093024B00ED1128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		032DE0E32093024B00ED1128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		032DE0E62093024B00ED1128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		032DE0E82093024B00ED1128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032DE0E92093024B00ED1128 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		032DE0EF2093024B00ED1128 /* ShiftAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DE0F32093024B00ED1128 /* ShiftAdminTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftAdminTests.m; sourceTree = "<group>"; };
+		032DE0F52093024B00ED1128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		032DE0FA2093024B00ED1128 /* ShiftAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShiftAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		032DE0FE2093024B00ED1128 /* ShiftAdminUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShiftAdminUITests.m; sourceTree = "<group>"; };
+		032DE1002093024B00ED1128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		032DE0D42093024B00ED1128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0EC2093024B00ED1128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0F72093024B00ED1128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032DE0CE2093024B00ED1128 = {
+			isa = PBXGroup;
+			children = (
+				032DE0D92093024B00ED1128 /* ShiftAdmin */,
+				032DE0F22093024B00ED1128 /* ShiftAdminTests */,
+				032DE0FD2093024B00ED1128 /* ShiftAdminUITests */,
+				032DE0D82093024B00ED1128 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		032DE0D82093024B00ED1128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				032DE0D72093024B00ED1128 /* ShiftAdmin.app */,
+				032DE0EF2093024B00ED1128 /* ShiftAdminTests.xctest */,
+				032DE0FA2093024B00ED1128 /* ShiftAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		032DE0D92093024B00ED1128 /* ShiftAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				032DE0DA2093024B00ED1128 /* AppDelegate.h */,
+				032DE0DB2093024B00ED1128 /* AppDelegate.m */,
+				032DE0DD2093024B00ED1128 /* ViewController.h */,
+				032DE0DE2093024B00ED1128 /* ViewController.m */,
+				032DE0E02093024B00ED1128 /* Main.storyboard */,
+				032DE0E32093024B00ED1128 /* Assets.xcassets */,
+				032DE0E52093024B00ED1128 /* LaunchScreen.storyboard */,
+				032DE0E82093024B00ED1128 /* Info.plist */,
+				032DE0E92093024B00ED1128 /* main.m */,
+			);
+			path = ShiftAdmin;
+			sourceTree = "<group>";
+		};
+		032DE0F22093024B00ED1128 /* ShiftAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				032DE0F32093024B00ED1128 /* ShiftAdminTests.m */,
+				032DE0F52093024B00ED1128 /* Info.plist */,
+			);
+			path = ShiftAdminTests;
+			sourceTree = "<group>";
+		};
+		032DE0FD2093024B00ED1128 /* ShiftAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				032DE0FE2093024B00ED1128 /* ShiftAdminUITests.m */,
+				032DE1002093024B00ED1128 /* Info.plist */,
+			);
+			path = ShiftAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		032DE0D62093024B00ED1128 /* ShiftAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DE1032093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdmin" */;
+			buildPhases = (
+				032DE0D32093024B00ED1128 /* Sources */,
+				032DE0D42093024B00ED1128 /* Frameworks */,
+				032DE0D52093024B00ED1128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShiftAdmin;
+			productName = ShiftAdmin;
+			productReference = 032DE0D72093024B00ED1128 /* ShiftAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		032DE0EE2093024B00ED1128 /* ShiftAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DE1062093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdminTests" */;
+			buildPhases = (
+				032DE0EB2093024B00ED1128 /* Sources */,
+				032DE0EC2093024B00ED1128 /* Frameworks */,
+				032DE0ED2093024B00ED1128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032DE0F12093024B00ED1128 /* PBXTargetDependency */,
+			);
+			name = ShiftAdminTests;
+			productName = ShiftAdminTests;
+			productReference = 032DE0EF2093024B00ED1128 /* ShiftAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		032DE0F92093024B00ED1128 /* ShiftAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032DE1092093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdminUITests" */;
+			buildPhases = (
+				032DE0F62093024B00ED1128 /* Sources */,
+				032DE0F72093024B00ED1128 /* Frameworks */,
+				032DE0F82093024B00ED1128 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				032DE0FC2093024B00ED1128 /* PBXTargetDependency */,
+			);
+			name = ShiftAdminUITests;
+			productName = ShiftAdminUITests;
+			productReference = 032DE0FA2093024B00ED1128 /* ShiftAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		032DE0CF2093024B00ED1128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ANIL KUMAR";
+				TargetAttributes = {
+					032DE0D62093024B00ED1128 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					032DE0EE2093024B00ED1128 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032DE0D62093024B00ED1128;
+					};
+					032DE0F92093024B00ED1128 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 032DE0D62093024B00ED1128;
+					};
+				};
+			};
+			buildConfigurationList = 032DE0D22093024B00ED1128 /* Build configuration list for PBXProject "ShiftAdmin" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 032DE0CE2093024B00ED1128;
+			productRefGroup = 032DE0D82093024B00ED1128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				032DE0D62093024B00ED1128 /* ShiftAdmin */,
+				032DE0EE2093024B00ED1128 /* ShiftAdminTests */,
+				032DE0F92093024B00ED1128 /* ShiftAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032DE0D52093024B00ED1128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DE0E72093024B00ED1128 /* LaunchScreen.storyboard in Resources */,
+				032DE0E42093024B00ED1128 /* Assets.xcassets in Resources */,
+				032DE0E22093024B00ED1128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0ED2093024B00ED1128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0F82093024B00ED1128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		032DE0D32093024B00ED1128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DE0DF2093024B00ED1128 /* ViewController.m in Sources */,
+				032DE0EA2093024B00ED1128 /* main.m in Sources */,
+				032DE0DC2093024B00ED1128 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0EB2093024B00ED1128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DE0F42093024B00ED1128 /* ShiftAdminTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		032DE0F62093024B00ED1128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032DE0FF2093024B00ED1128 /* ShiftAdminUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		032DE0F12093024B00ED1128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032DE0D62093024B00ED1128 /* ShiftAdmin */;
+			targetProxy = 032DE0F02093024B00ED1128 /* PBXContainerItemProxy */;
+		};
+		032DE0FC2093024B00ED1128 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 032DE0D62093024B00ED1128 /* ShiftAdmin */;
+			targetProxy = 032DE0FB2093024B00ED1128 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		032DE0E02093024B00ED1128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032DE0E12093024B00ED1128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		032DE0E52093024B00ED1128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				032DE0E62093024B00ED1128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		032DE1012093024B00ED1128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		032DE1022093024B00ED1128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		032DE1042093024B00ED1128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdmin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		032DE1052093024B00ED1128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdmin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		032DE1072093024B00ED1128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiftAdmin.app/ShiftAdmin";
+			};
+			name = Debug;
+		};
+		032DE1082093024B00ED1128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdminTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShiftAdmin.app/ShiftAdmin";
+			};
+			name = Release;
+		};
+		032DE10A2093024B00ED1128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiftAdmin;
+			};
+			name = Debug;
+		};
+		032DE10B2093024B00ED1128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73F7UCT3ZA;
+				INFOPLIST_FILE = ShiftAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ANIL-KUMAR.ShiftAdminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShiftAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032DE0D22093024B00ED1128 /* Build configuration list for PBXProject "ShiftAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DE1012093024B00ED1128 /* Debug */,
+				032DE1022093024B00ED1128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DE1032093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DE1042093024B00ED1128 /* Debug */,
+				032DE1052093024B00ED1128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DE1062093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DE1072093024B00ED1128 /* Debug */,
+				032DE1082093024B00ED1128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		032DE1092093024B00ED1128 /* Build configuration list for PBXNativeTarget "ShiftAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				032DE10A2093024B00ED1128 /* Debug */,
+				032DE10B2093024B00ED1128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 032DE0CF2093024B00ED1128 /* Project object */;
+}
