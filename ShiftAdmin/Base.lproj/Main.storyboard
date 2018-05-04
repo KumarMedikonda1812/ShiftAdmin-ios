@@ -1,24 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Dash Board View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="DashBoardViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64X-iP-o7P">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="61"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DashBoard OverView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="df9-Cm-6p4">
+                                        <rect key="frame" x="112" y="18" width="190" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="kLo-kS-e35"/>
+                                            <constraint firstAttribute="width" constant="190" id="olF-en-0aJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="df9-Cm-6p4" firstAttribute="centerY" secondItem="64X-iP-o7P" secondAttribute="centerY" id="1aT-bj-cls"/>
+                                    <constraint firstItem="df9-Cm-6p4" firstAttribute="centerX" secondItem="64X-iP-o7P" secondAttribute="centerX" id="Rfb-ab-9sp"/>
+                                    <constraint firstAttribute="height" constant="61" id="yQN-7U-M75"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="AWB-h8-mmO">
+                                <rect key="frame" x="0.0" y="61" width="414" height="675"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="wM4-BT-1tL">
+                                    <size key="itemSize" width="150" height="170"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ggi-0v-OPI"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="CXs-mZ-2TR"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901959999995" green="0.90980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="64X-iP-o7P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ehu-xF-gVS"/>
+                            <constraint firstItem="64X-iP-o7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hwT-1I-SN4"/>
+                            <constraint firstItem="AWB-h8-mmO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="m0q-8Q-eGB"/>
+                            <constraint firstItem="64X-iP-o7P" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="oKx-C6-pzZ"/>
+                            <constraint firstItem="AWB-h8-mmO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ogh-Pm-EIW"/>
+                            <constraint firstItem="AWB-h8-mmO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="olE-o8-tav"/>
+                            <constraint firstItem="AWB-h8-mmO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="61" id="yna-nG-kZp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="dashBoardCollectionView" destination="AWB-h8-mmO" id="sUD-7x-tcP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-94.20289855072464" y="-33.423913043478265"/>
         </scene>
     </scenes>
 </document>

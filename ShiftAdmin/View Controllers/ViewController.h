@@ -2,7 +2,7 @@
 //  ViewController.h
 //  ShiftAdmin
 //
-//  Created by kishore kumar on 27/04/18.
+//  Created by kishore kumar on 30/04/18.
 //  Copyright © 2018 ANIL KUMAR. All rights reserved.
 //
 
@@ -10,6 +10,4 @@
 
 @interface ViewController : UIViewController
 
-
 @end
-
