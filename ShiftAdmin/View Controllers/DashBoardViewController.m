@@ -136,7 +136,6 @@
                                                                     green:255.0f/255.0f
                                                                      blue:112.0f/255.0f
                                                                     alpha:1.0f];
-        
         cell.jobsCountLbl.text = [NSString stringWithFormat:@"%@",[employeeValues objectForKey:@"jobs"]];
         
     } else
